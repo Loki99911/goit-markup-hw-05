@@ -510,6 +510,8 @@ address {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--white-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .modal-x .icon {
   position: absolute;
@@ -536,7 +538,7 @@ address {
   font-family: inherit;
   letter-spacing: 0.03em;
   cursor: pointer;
-  transition: box-shadow 250ms var(--cubic);
+  transition: color 250ms var(--cubic), background-color 250ms var(--cubic),box-shadow 250ms var(--cubic);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
